@@ -1,2 +1,2 @@
 # aidrax-framer-demo
-AIDRAX Framer UI mit Neon, Avatar &amp; LiveStatus
+AIDRAX Framer UI mit Neon, Avatar & LiveStatus
