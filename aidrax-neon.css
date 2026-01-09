@@ -1,0 +1,51 @@
+:root {
+    --bg: #0d0d0d;
+    --fg: #e6e6e6;
+    --neon-primary: #39ff14;
+    --neon-secondary: #00e5ff;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: var(--neon-primary);
+    text-shadow: 0 0 5px var(--neon-primary), 0 0 10px var(--neon-primary);
+    margin: 0 0 1rem 0;
+}
+
+p {
+    margin: 0 0 2rem 0;
+}
+
+.neon-button {
+    background: transparent;
+    border: 2px solid var(--neon-secondary);
+    color: var(--neon-secondary);
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.3s, color 0.3s, background 0.3s;
+    text-shadow: 0 0 5px var(--neon-secondary);
+}
+
+.neon-button:hover,
+.neon-button:focus {
+    box-shadow: 0 0 10px var(--neon-secondary), 0 0 20px var(--neon-secondary), 0 0 40px var(--neon-secondary);
+    color: var(--bg);
+    background: var(--neon-secondary);
+    text-shadow: none;
+}
