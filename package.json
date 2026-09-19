@@ -1,0 +1,13 @@
+{
+  "name": "aidrax-framer-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AIDRAX Framer Neon Demo",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
